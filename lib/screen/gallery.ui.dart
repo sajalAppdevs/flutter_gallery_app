@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gallery_app/data/fetch_image.dart';
 import 'package:flutter_gallery_app/screen/detail.ui.dart';
 
+///Gallery screen with photos from pixabay, also contains likes and views data
 class GalleryScreen extends StatefulWidget {
   const GalleryScreen({super.key});
 

@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter_gallery_app/constants/url.consts.dart';
 import 'package:http/http.dart' as http;
 
+///Function to get images from pixabay
 Future<List<Map<String, dynamic>>> fetchImages() async {
   final response = await http.get(
     Uri.parse(

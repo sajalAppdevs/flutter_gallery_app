@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+///Zoomed in details screen
 class DetailScreen extends StatelessWidget {
   final String url;
   final String tag;
